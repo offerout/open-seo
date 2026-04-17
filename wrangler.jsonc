@@ -7,16 +7,6 @@
   "observability": {
     "enabled": true,
   },
-  "// Routes removed — using default .workers.dev subdomain // Add custom domain routes here once openseo.so is set up in Cloudflare": [
-    {
-      "pattern": "app.openseo.so",
-      "custom_domain": true,
-    },
-    {
-      "pattern": "www.app.openseo.so",
-      "custom_domain": true,
-    },
-  ],
   "workflows": [
     {
       "name": "site-audit-workflow",
